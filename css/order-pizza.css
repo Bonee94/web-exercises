@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.jumbotron{
+   background-image: url(http://www.pcspaddockrestaurant.com/wp-content/uploads/2017/12/pizza-header.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   height: 200px;
+   width: 100%;
+   
+}
+.container{
+    width: 100%;
+}
+.jumbotron h1{
+    font-size: 3em; 
+    margin: 0 -.65em;
+    padding: 0;
+    color: rgb(102, 102, 102);
+    background-color: rgba(248, 248, 248, 0.753);
+}
+.main-card-header{
+    background-color: rgb(35, 123, 255);
+    color: #ffffff;
+}
+.option-card-header{
+    background-color: rgb(218, 225, 255);
+    text-decoration: bold;
+    font-size: 1.2em;
+}
+.btn-previous{
+    margin: .2em;
+    height: 40px;
+    width: 150px;
+}
+.btn-next{
+    margin: .2em;
+    height: 40px;
+    width: 150px;
+}
+.checkout-btn{
+    margin: .2em;
+    height: 40px;
+    width: 150px;
+}
+.card-footer{
+    height: 80px;
+}
+.i{
+    justify-self: end;
+}

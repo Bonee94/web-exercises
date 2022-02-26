@@ -1,0 +1,40 @@
+html{
+    border: 10px solid black;
+    margin: 5px;
+}
+h1{
+    color: #ff0000e0;
+    text-align: center;
+    text-decoration: underline;
+    padding: .5em;
+    border-style:inset;
+    border-color: red;
+    border-width:.15em;
+    border-radius: 10em;
+    background-color: #000000;
+   }
+h2{
+    color:#228b22;
+    padding: .2em;
+    text-align: center;
+
+}
+form{
+    color: #ffff00;
+    text-align: center;
+    
+}
+table{
+    background-color:rgb(138, 138, 138) ;
+    padding: 50px;
+    font-size: 1.35em;
+}
+button:hover {
+    color:#ffff00;
+}
+a{
+    color:#ff0000;
+}
+a:hover{
+    color:#008000;
+}

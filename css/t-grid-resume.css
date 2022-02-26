@@ -1,0 +1,52 @@
+@media screen and (max-width:768px)/*Mobile Display*/{
+    body{
+        font-weight: 500;
+        font-size: 2vw;
+    }
+    .h1{
+        margin: .5em;
+        font-size: 3.7em;
+        font-weight: 700;
+    }
+    .h2{
+        font-size: 3em;
+    }
+    .h3{
+        font-size: 2em;
+        font-weight: 700;
+        margin: 0 0 10px;
+        color: rgb(59, 129, 233);
+    }
+}
+@media screen and (min-width:769px)/*Desktop Display*/{
+    body{
+        font-weight: 500;
+        font-size: 1em;
+    }
+    .h1{
+        margin: .5em;
+        font-size: 4em;
+        font-weight: 700;
+    }
+    .h2{
+        font-size: 3em;
+    }
+    .h3{
+        font-size: 1.4em;
+        font-weight: 700;
+        margin: 0 0 10px;
+        color: rgb(59, 129, 233);
+    }
+    .contact-links{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
+
+/*...............ALL DISPLAYS...............*/
+hr { 
+    display: block;
+    width: 98%;
+    margin: 1em auto;
+    border: 3px solid rgb(109, 182, 109);
+}
